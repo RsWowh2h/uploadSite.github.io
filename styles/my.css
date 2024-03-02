@@ -1,0 +1,86 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(45deg, #000000 0%, #ffffff 100%);
+}
+p{
+    color: aliceblue;
+}
+.nav-link, .navbar-brand{
+    color: rgb(200, 211, 211);
+}
+.nav-item .nav-link.active{
+color: rgb(10, 145, 145);
+}
+.navbar-brand>img{
+width: 2em;
+}
+.navbar-toggler{
+    background-color: gold;
+}
+.sidebar{
+    background: linear-gradient(90deg, #000000 0%, #4f2525 100%);
+    text-align: left;
+    color: rgb(34, 164, 182);}
+
+    .card{ 
+    background: linear-gradient(90deg, #d3c4c4 0%, #b99f9f 100%);
+    color: rgb(249, 249, 249);
+}
+.card a{text-decoration: none;
+color: rgb(249, 249, 249);}
+.slider-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 755px) {
+    .carousel-indicators{display: none;}
+}
+footer{
+    background: linear-gradient(45deg, #ffffff 0%, #000000 100%);
+    color: aliceblue;
+    margin-top: 4em;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-outline-primary{
+    background: linear-gradient(45deg, #ffffff 0%, #000000 100%);
+
+}
+.callAnimation{
+    animation: call 2s ease 0s infinite normal none;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
